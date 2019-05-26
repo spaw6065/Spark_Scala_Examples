@@ -1,0 +1,12 @@
+import org.apache.spark.SparkConf
+import org.apache.spark.SparkContext
+
+object TestObject {
+  def main(args:Array[String]):Unit ={
+    val conf = new SparkConf().setMaster("local[8]").setAppName("Word count program")
+    val sc  =  new SparkContext(conf)
+    
+    val readTextFileRDD = sc.textFile("/Users/sumitpawar/Input.txt",2)
+    readTextFileRDD.map(x=>(x.split(" "))).map(y=>(y,1)).reduceByKey(_+_).collect.foreach(println)
+  }
+}

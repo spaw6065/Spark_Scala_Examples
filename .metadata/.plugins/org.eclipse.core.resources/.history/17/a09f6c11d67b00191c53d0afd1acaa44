@@ -1,0 +1,29 @@
+
+
+object scalaloopsObj {
+def main(args:Array[String]){
+  println("Entered main method")
+  
+  def fileLines(file: java.io.File) =
+    scala.io.Source.fromFile(file).getLines
+   
+  def grep(pattern:String)={
+   
+  //read the files from the input directory 
+  val filesHere = (new java.io.File(args(0)).listFiles())
+  
+  println("filesHere is of type"+filesHere.isInstanceOf)
+  var icounter = 0
+  for{file <- filesHere  
+    if (file.getName.endsWith(".scala"))
+      line <- fileLines(file)     
+      if line.trim.matches("this")
+  } 
+  println(file);  icounter = icounter +1 
+ }
+  //invocatin of the methods
+  grep("scala")
+  
+  println("Exited main method")
+}
+}

@@ -1,0 +1,7 @@
+package traits
+
+class myclass extends mytrait {
+ override def myprintln2(mystring:String) = {
+   println("This is println2 from myclass "+mystring)
+ }
+}

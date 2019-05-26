@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;TestProject2/src/testpkg/testobject.scala&apos; to &apos;DataSetExample1.scala&apos;" description="Rename resource &apos;testobject.scala&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/testpkg/testobject.scala" name="DataSetExample1.scala" stamp="1558810128916" updateReferences="true"/>
+</session>

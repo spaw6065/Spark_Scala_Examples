@@ -1,0 +1,7 @@
+
+
+class myclass  extends mytrait{
+ override def println2={
+   println("This is println2 from myclass")
+ }
+}

@@ -1,0 +1,341 @@
+!SESSION 2019-05-25 10:49:31.848 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=11.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/sumitpawar/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/sumitpawar/.eclipse_keyring
+
+This is a continuation of log file /Users/sumitpawar/scala_eclipse_workspace/.metadata/.bak_1.log
+Created Time: 2019-05-26 12:16:19.325
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 12:16:19.326
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 12:16:19.328
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-05-26 12:16:29.297
+!MESSAGE An internal error occurred during: "Computing additional info".
+!STACK 0
+java.lang.NoSuchMethodError: org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(Lorg/eclipse/jdt/internal/core/JavaProject;Lorg/eclipse/jdt/core/WorkingCopyOwner;)V
+	at org.scalaide.core.internal.compiler.LocateSymbol.findPath$1(LocateSymbol.scala:53)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findSourceFile$1(LocateSymbol.scala:73)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findCompilationUnit(LocateSymbol.scala:75)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findCompilationUnit$(LocateSymbol.scala:18)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.findCompilationUnit(ScalaPresentationCompiler.scala:54)
+	at org.scalaide.core.internal.compiler.Scaladoc.parsedDocComment(ScalaDoc.scala:48)
+	at org.scalaide.core.internal.compiler.Scaladoc.parsedDocComment$(ScalaDoc.scala:45)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.parsedDocComment(ScalaPresentationCompiler.scala:54)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.$anonfun$mkCompletionProposal$7(ScalaPresentationCompiler.scala:420)
+	at org.scalaide.ui.internal.completion.ScalaCompletionProposalImpl.getAdditionalProposalInfo(ScalaCompletionProposalImpl.scala:109)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-05-26 12:16:31.418
+!MESSAGE An internal error occurred during: "Computing additional info".
+!STACK 0
+java.lang.NoSuchMethodError: org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(Lorg/eclipse/jdt/internal/core/JavaProject;Lorg/eclipse/jdt/core/WorkingCopyOwner;)V
+	at org.scalaide.core.internal.compiler.LocateSymbol.findPath$1(LocateSymbol.scala:53)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findSourceFile$1(LocateSymbol.scala:73)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findCompilationUnit(LocateSymbol.scala:75)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findCompilationUnit$(LocateSymbol.scala:18)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.findCompilationUnit(ScalaPresentationCompiler.scala:54)
+	at org.scalaide.core.internal.compiler.Scaladoc.parsedDocComment(ScalaDoc.scala:48)
+	at org.scalaide.core.internal.compiler.Scaladoc.parsedDocComment$(ScalaDoc.scala:45)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.parsedDocComment(ScalaPresentationCompiler.scala:54)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.$anonfun$mkCompletionProposal$7(ScalaPresentationCompiler.scala:420)
+	at org.scalaide.ui.internal.completion.ScalaCompletionProposalImpl.getAdditionalProposalInfo(ScalaCompletionProposalImpl.scala:109)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-05-26 12:16:31.582
+!MESSAGE An internal error occurred during: "Computing additional info".
+!STACK 0
+java.lang.NoSuchMethodError: org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(Lorg/eclipse/jdt/internal/core/JavaProject;Lorg/eclipse/jdt/core/WorkingCopyOwner;)V
+	at org.scalaide.core.internal.compiler.LocateSymbol.findPath$1(LocateSymbol.scala:53)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findSourceFile$1(LocateSymbol.scala:73)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findCompilationUnit(LocateSymbol.scala:75)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findCompilationUnit$(LocateSymbol.scala:18)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.findCompilationUnit(ScalaPresentationCompiler.scala:54)
+	at org.scalaide.core.internal.compiler.Scaladoc.parsedDocComment(ScalaDoc.scala:48)
+	at org.scalaide.core.internal.compiler.Scaladoc.parsedDocComment$(ScalaDoc.scala:45)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.parsedDocComment(ScalaPresentationCompiler.scala:54)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.$anonfun$mkCompletionProposal$7(ScalaPresentationCompiler.scala:420)
+	at org.scalaide.ui.internal.completion.ScalaCompletionProposalImpl.getAdditionalProposalInfo(ScalaCompletionProposalImpl.scala:109)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-05-26 12:16:31.743
+!MESSAGE An internal error occurred during: "Computing additional info".
+!STACK 0
+java.lang.NoSuchMethodError: org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(Lorg/eclipse/jdt/internal/core/JavaProject;Lorg/eclipse/jdt/core/WorkingCopyOwner;)V
+	at org.scalaide.core.internal.compiler.LocateSymbol.findPath$1(LocateSymbol.scala:53)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findSourceFile$1(LocateSymbol.scala:73)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findCompilationUnit(LocateSymbol.scala:75)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findCompilationUnit$(LocateSymbol.scala:18)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.findCompilationUnit(ScalaPresentationCompiler.scala:54)
+	at org.scalaide.core.internal.compiler.Scaladoc.parsedDocComment(ScalaDoc.scala:48)
+	at org.scalaide.core.internal.compiler.Scaladoc.parsedDocComment$(ScalaDoc.scala:45)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.parsedDocComment(ScalaPresentationCompiler.scala:54)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.$anonfun$mkCompletionProposal$7(ScalaPresentationCompiler.scala:420)
+	at org.scalaide.ui.internal.completion.ScalaCompletionProposalImpl.getAdditionalProposalInfo(ScalaCompletionProposalImpl.scala:109)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-05-26 12:16:31.888
+!MESSAGE An internal error occurred during: "Computing additional info".
+!STACK 0
+java.lang.NoSuchMethodError: org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(Lorg/eclipse/jdt/internal/core/JavaProject;Lorg/eclipse/jdt/core/WorkingCopyOwner;)V
+	at org.scalaide.core.internal.compiler.LocateSymbol.findPath$1(LocateSymbol.scala:53)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findSourceFile$1(LocateSymbol.scala:73)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findCompilationUnit(LocateSymbol.scala:75)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findCompilationUnit$(LocateSymbol.scala:18)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.findCompilationUnit(ScalaPresentationCompiler.scala:54)
+	at org.scalaide.core.internal.compiler.Scaladoc.parsedDocComment(ScalaDoc.scala:48)
+	at org.scalaide.core.internal.compiler.Scaladoc.parsedDocComment$(ScalaDoc.scala:45)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.parsedDocComment(ScalaPresentationCompiler.scala:54)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.$anonfun$mkCompletionProposal$7(ScalaPresentationCompiler.scala:420)
+	at org.scalaide.ui.internal.completion.ScalaCompletionProposalImpl.getAdditionalProposalInfo(ScalaCompletionProposalImpl.scala:109)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-05-26 12:16:32.061
+!MESSAGE An internal error occurred during: "Computing additional info".
+!STACK 0
+java.lang.NoSuchMethodError: org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(Lorg/eclipse/jdt/internal/core/JavaProject;Lorg/eclipse/jdt/core/WorkingCopyOwner;)V
+	at org.scalaide.core.internal.compiler.LocateSymbol.findPath$1(LocateSymbol.scala:53)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findSourceFile$1(LocateSymbol.scala:73)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findCompilationUnit(LocateSymbol.scala:75)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findCompilationUnit$(LocateSymbol.scala:18)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.findCompilationUnit(ScalaPresentationCompiler.scala:54)
+	at org.scalaide.core.internal.compiler.Scaladoc.parsedDocComment(ScalaDoc.scala:48)
+	at org.scalaide.core.internal.compiler.Scaladoc.parsedDocComment$(ScalaDoc.scala:45)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.parsedDocComment(ScalaPresentationCompiler.scala:54)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.$anonfun$mkCompletionProposal$7(ScalaPresentationCompiler.scala:420)
+	at org.scalaide.ui.internal.completion.ScalaCompletionProposalImpl.getAdditionalProposalInfo(ScalaCompletionProposalImpl.scala:109)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-05-26 12:16:32.191
+!MESSAGE An internal error occurred during: "Computing additional info".
+!STACK 0
+java.lang.NoSuchMethodError: org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(Lorg/eclipse/jdt/internal/core/JavaProject;Lorg/eclipse/jdt/core/WorkingCopyOwner;)V
+	at org.scalaide.core.internal.compiler.LocateSymbol.findPath$1(LocateSymbol.scala:53)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findSourceFile$1(LocateSymbol.scala:73)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findCompilationUnit(LocateSymbol.scala:75)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findCompilationUnit$(LocateSymbol.scala:18)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.findCompilationUnit(ScalaPresentationCompiler.scala:54)
+	at org.scalaide.core.internal.compiler.Scaladoc.parsedDocComment(ScalaDoc.scala:48)
+	at org.scalaide.core.internal.compiler.Scaladoc.parsedDocComment$(ScalaDoc.scala:45)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.parsedDocComment(ScalaPresentationCompiler.scala:54)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.$anonfun$mkCompletionProposal$7(ScalaPresentationCompiler.scala:420)
+	at org.scalaide.ui.internal.completion.ScalaCompletionProposalImpl.getAdditionalProposalInfo(ScalaCompletionProposalImpl.scala:109)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-05-26 12:16:32.338
+!MESSAGE An internal error occurred during: "Computing additional info".
+!STACK 0
+java.lang.NoSuchMethodError: org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(Lorg/eclipse/jdt/internal/core/JavaProject;Lorg/eclipse/jdt/core/WorkingCopyOwner;)V
+	at org.scalaide.core.internal.compiler.LocateSymbol.findPath$1(LocateSymbol.scala:53)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findSourceFile$1(LocateSymbol.scala:73)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findCompilationUnit(LocateSymbol.scala:75)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findCompilationUnit$(LocateSymbol.scala:18)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.findCompilationUnit(ScalaPresentationCompiler.scala:54)
+	at org.scalaide.core.internal.compiler.Scaladoc.parsedDocComment(ScalaDoc.scala:48)
+	at org.scalaide.core.internal.compiler.Scaladoc.parsedDocComment$(ScalaDoc.scala:45)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.parsedDocComment(ScalaPresentationCompiler.scala:54)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.$anonfun$mkCompletionProposal$7(ScalaPresentationCompiler.scala:420)
+	at org.scalaide.ui.internal.completion.ScalaCompletionProposalImpl.getAdditionalProposalInfo(ScalaCompletionProposalImpl.scala:109)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-05-26 12:16:32.474
+!MESSAGE An internal error occurred during: "Computing additional info".
+!STACK 0
+java.lang.NoSuchMethodError: org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(Lorg/eclipse/jdt/internal/core/JavaProject;Lorg/eclipse/jdt/core/WorkingCopyOwner;)V
+	at org.scalaide.core.internal.compiler.LocateSymbol.findPath$1(LocateSymbol.scala:53)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findSourceFile$1(LocateSymbol.scala:73)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findCompilationUnit(LocateSymbol.scala:75)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findCompilationUnit$(LocateSymbol.scala:18)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.findCompilationUnit(ScalaPresentationCompiler.scala:54)
+	at org.scalaide.core.internal.compiler.Scaladoc.parsedDocComment(ScalaDoc.scala:48)
+	at org.scalaide.core.internal.compiler.Scaladoc.parsedDocComment$(ScalaDoc.scala:45)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.parsedDocComment(ScalaPresentationCompiler.scala:54)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.$anonfun$mkCompletionProposal$7(ScalaPresentationCompiler.scala:420)
+	at org.scalaide.ui.internal.completion.ScalaCompletionProposalImpl.getAdditionalProposalInfo(ScalaCompletionProposalImpl.scala:109)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-05-26 12:16:32.619
+!MESSAGE An internal error occurred during: "Computing additional info".
+!STACK 0
+java.lang.NoSuchMethodError: org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(Lorg/eclipse/jdt/internal/core/JavaProject;Lorg/eclipse/jdt/core/WorkingCopyOwner;)V
+	at org.scalaide.core.internal.compiler.LocateSymbol.findPath$1(LocateSymbol.scala:53)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findSourceFile$1(LocateSymbol.scala:73)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findCompilationUnit(LocateSymbol.scala:75)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findCompilationUnit$(LocateSymbol.scala:18)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.findCompilationUnit(ScalaPresentationCompiler.scala:54)
+	at org.scalaide.core.internal.compiler.Scaladoc.parsedDocComment(ScalaDoc.scala:48)
+	at org.scalaide.core.internal.compiler.Scaladoc.parsedDocComment$(ScalaDoc.scala:45)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.parsedDocComment(ScalaPresentationCompiler.scala:54)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.$anonfun$mkCompletionProposal$7(ScalaPresentationCompiler.scala:420)
+	at org.scalaide.ui.internal.completion.ScalaCompletionProposalImpl.getAdditionalProposalInfo(ScalaCompletionProposalImpl.scala:109)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-05-26 12:16:32.769
+!MESSAGE An internal error occurred during: "Computing additional info".
+!STACK 0
+java.lang.NoSuchMethodError: org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(Lorg/eclipse/jdt/internal/core/JavaProject;Lorg/eclipse/jdt/core/WorkingCopyOwner;)V
+	at org.scalaide.core.internal.compiler.LocateSymbol.findPath$1(LocateSymbol.scala:53)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findSourceFile$1(LocateSymbol.scala:73)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findCompilationUnit(LocateSymbol.scala:75)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findCompilationUnit$(LocateSymbol.scala:18)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.findCompilationUnit(ScalaPresentationCompiler.scala:54)
+	at org.scalaide.core.internal.compiler.Scaladoc.parsedDocComment(ScalaDoc.scala:48)
+	at org.scalaide.core.internal.compiler.Scaladoc.parsedDocComment$(ScalaDoc.scala:45)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.parsedDocComment(ScalaPresentationCompiler.scala:54)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.$anonfun$mkCompletionProposal$7(ScalaPresentationCompiler.scala:420)
+	at org.scalaide.ui.internal.completion.ScalaCompletionProposalImpl.getAdditionalProposalInfo(ScalaCompletionProposalImpl.scala:109)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-05-26 12:16:32.898
+!MESSAGE An internal error occurred during: "Computing additional info".
+!STACK 0
+java.lang.NoSuchMethodError: org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(Lorg/eclipse/jdt/internal/core/JavaProject;Lorg/eclipse/jdt/core/WorkingCopyOwner;)V
+	at org.scalaide.core.internal.compiler.LocateSymbol.findPath$1(LocateSymbol.scala:53)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findSourceFile$1(LocateSymbol.scala:73)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findCompilationUnit(LocateSymbol.scala:75)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findCompilationUnit$(LocateSymbol.scala:18)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.findCompilationUnit(ScalaPresentationCompiler.scala:54)
+	at org.scalaide.core.internal.compiler.Scaladoc.parsedDocComment(ScalaDoc.scala:48)
+	at org.scalaide.core.internal.compiler.Scaladoc.parsedDocComment$(ScalaDoc.scala:45)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.parsedDocComment(ScalaPresentationCompiler.scala:54)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.$anonfun$mkCompletionProposal$7(ScalaPresentationCompiler.scala:420)
+	at org.scalaide.ui.internal.completion.ScalaCompletionProposalImpl.getAdditionalProposalInfo(ScalaCompletionProposalImpl.scala:109)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-05-26 12:16:33.036
+!MESSAGE An internal error occurred during: "Computing additional info".
+!STACK 0
+java.lang.NoSuchMethodError: org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(Lorg/eclipse/jdt/internal/core/JavaProject;Lorg/eclipse/jdt/core/WorkingCopyOwner;)V
+	at org.scalaide.core.internal.compiler.LocateSymbol.findPath$1(LocateSymbol.scala:53)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findSourceFile$1(LocateSymbol.scala:73)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findCompilationUnit(LocateSymbol.scala:75)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findCompilationUnit$(LocateSymbol.scala:18)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.findCompilationUnit(ScalaPresentationCompiler.scala:54)
+	at org.scalaide.core.internal.compiler.Scaladoc.parsedDocComment(ScalaDoc.scala:48)
+	at org.scalaide.core.internal.compiler.Scaladoc.parsedDocComment$(ScalaDoc.scala:45)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.parsedDocComment(ScalaPresentationCompiler.scala:54)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.$anonfun$mkCompletionProposal$7(ScalaPresentationCompiler.scala:420)
+	at org.scalaide.ui.internal.completion.ScalaCompletionProposalImpl.getAdditionalProposalInfo(ScalaCompletionProposalImpl.scala:109)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-05-26 12:16:33.191
+!MESSAGE An internal error occurred during: "Computing additional info".
+!STACK 0
+java.lang.NoSuchMethodError: org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(Lorg/eclipse/jdt/internal/core/JavaProject;Lorg/eclipse/jdt/core/WorkingCopyOwner;)V
+	at org.scalaide.core.internal.compiler.LocateSymbol.findPath$1(LocateSymbol.scala:53)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findSourceFile$1(LocateSymbol.scala:73)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findCompilationUnit(LocateSymbol.scala:75)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findCompilationUnit$(LocateSymbol.scala:18)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.findCompilationUnit(ScalaPresentationCompiler.scala:54)
+	at org.scalaide.core.internal.compiler.Scaladoc.parsedDocComment(ScalaDoc.scala:48)
+	at org.scalaide.core.internal.compiler.Scaladoc.parsedDocComment$(ScalaDoc.scala:45)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.parsedDocComment(ScalaPresentationCompiler.scala:54)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.$anonfun$mkCompletionProposal$7(ScalaPresentationCompiler.scala:420)
+	at org.scalaide.ui.internal.completion.ScalaCompletionProposalImpl.getAdditionalProposalInfo(ScalaCompletionProposalImpl.scala:109)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-05-26 12:16:33.328
+!MESSAGE An internal error occurred during: "Computing additional info".
+!STACK 0
+java.lang.NoSuchMethodError: org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(Lorg/eclipse/jdt/internal/core/JavaProject;Lorg/eclipse/jdt/core/WorkingCopyOwner;)V
+	at org.scalaide.core.internal.compiler.LocateSymbol.findPath$1(LocateSymbol.scala:53)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findSourceFile$1(LocateSymbol.scala:73)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findCompilationUnit(LocateSymbol.scala:75)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findCompilationUnit$(LocateSymbol.scala:18)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.findCompilationUnit(ScalaPresentationCompiler.scala:54)
+	at org.scalaide.core.internal.compiler.Scaladoc.parsedDocComment(ScalaDoc.scala:48)
+	at org.scalaide.core.internal.compiler.Scaladoc.parsedDocComment$(ScalaDoc.scala:45)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.parsedDocComment(ScalaPresentationCompiler.scala:54)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.$anonfun$mkCompletionProposal$7(ScalaPresentationCompiler.scala:420)
+	at org.scalaide.ui.internal.completion.ScalaCompletionProposalImpl.getAdditionalProposalInfo(ScalaCompletionProposalImpl.scala:109)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-05-26 12:16:34.020
+!MESSAGE An internal error occurred during: "Computing additional info".
+!STACK 0
+java.lang.NoSuchMethodError: org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(Lorg/eclipse/jdt/internal/core/JavaProject;Lorg/eclipse/jdt/core/WorkingCopyOwner;)V
+	at org.scalaide.core.internal.compiler.LocateSymbol.findPath$1(LocateSymbol.scala:53)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findSourceFile$1(LocateSymbol.scala:73)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findCompilationUnit(LocateSymbol.scala:75)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findCompilationUnit$(LocateSymbol.scala:18)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.findCompilationUnit(ScalaPresentationCompiler.scala:54)
+	at org.scalaide.core.internal.compiler.Scaladoc.parsedDocComment(ScalaDoc.scala:48)
+	at org.scalaide.core.internal.compiler.Scaladoc.parsedDocComment$(ScalaDoc.scala:45)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.parsedDocComment(ScalaPresentationCompiler.scala:54)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.$anonfun$mkCompletionProposal$7(ScalaPresentationCompiler.scala:420)
+	at org.scalaide.ui.internal.completion.ScalaCompletionProposalImpl.getAdditionalProposalInfo(ScalaCompletionProposalImpl.scala:109)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-05-26 12:16:35.908
+!MESSAGE An internal error occurred during: "Computing additional info".
+!STACK 0
+java.lang.NoSuchMethodError: org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(Lorg/eclipse/jdt/internal/core/JavaProject;Lorg/eclipse/jdt/core/WorkingCopyOwner;)V
+	at org.scalaide.core.internal.compiler.LocateSymbol.findPath$1(LocateSymbol.scala:53)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findSourceFile$1(LocateSymbol.scala:73)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findCompilationUnit(LocateSymbol.scala:75)
+	at org.scalaide.core.internal.compiler.LocateSymbol.findCompilationUnit$(LocateSymbol.scala:18)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.findCompilationUnit(ScalaPresentationCompiler.scala:54)
+	at org.scalaide.core.internal.compiler.Scaladoc.parsedDocComment(ScalaDoc.scala:48)
+	at org.scalaide.core.internal.compiler.Scaladoc.parsedDocComment$(ScalaDoc.scala:45)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.parsedDocComment(ScalaPresentationCompiler.scala:54)
+	at org.scalaide.core.internal.compiler.ScalaPresentationCompiler.$anonfun$mkCompletionProposal$7(ScalaPresentationCompiler.scala:420)
+	at org.scalaide.ui.internal.completion.ScalaCompletionProposalImpl.getAdditionalProposalInfo(ScalaCompletionProposalImpl.scala:109)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 12:16:40.730
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 12:16:40.733
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 12:19:53.978
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 12:19:53.979
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 12:24:55.304
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 12:24:55.307
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 12:29:56.751
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 12:29:56.756
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 12:32:53.616
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 12:32:53.619
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 12:33:08.608
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-05-26 12:33:08.611
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!

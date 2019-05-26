@@ -1,0 +1,17 @@
+package SparkPkg
+
+import org.apache.spark.{SparkConf,SparkContext}
+//import org.apache.spark.sql.sqlContext
+//mport org.apache.spark.sql.SQLImplicits
+
+object TestObject {
+ def main(args:Array[String])={
+   
+  val conf = new SparkConf().setMaster("local[*]").setAppName("Test Project")
+  val sc = new SparkContext(conf)
+  
+  val readTextFilev=sc.textFile("/Users/sumitpawar/Input.txt", 2)
+  
+  readTextFilev.map(x=>(x.split(" "))).map(y=>(y,1)).reduceByKey(_+_).collect.foreach(println)
+  }   
+}

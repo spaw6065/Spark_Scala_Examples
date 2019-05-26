@@ -1,0 +1,7 @@
+import org.apache.spark{SparkConf,SparkContext}
+
+object TestObject {
+  def main(args:Array[String]):Unit ={
+    val conf = new SparkConf().setMaster("local[*])").setAppName("Word Count Program")
+  }
+}

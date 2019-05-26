@@ -1,0 +1,15 @@
+
+
+object scalaclosureObj {
+  val maxLength = 10
+  def main(args:Array[String])={
+    val sList = List("sumit","apple","potato","jist","summary","mesmerising","mesmerising")
+
+    def getlistmaxlengthelement(iList:List[String]) = {
+     iList.foreach(x=> if (x.length > maxLength) x)    
+    }
+    
+    println("maximum length string in the list "+getlistmaxlengthelement(sList))
+    
+  }
+}

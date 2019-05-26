@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 3 elements to &apos;traitspkg.package-info.java&apos;&#x0A;- Original project: &apos;traits&apos;&#x0A;- Destination element: &apos;traitspkg.package-info.java&apos;&#x0A;- Original elements:&#x0A;     myobject.scala&#x0A;     myclass.scala&#x0A;     mytrait.scala&#x0A;- Update references to refactored element" description="Move files" destination="/src&lt;traitspkg{package-info.java" element1="src/myobject.scala" element2="src/myclass.scala" element3="src/mytrait.scala" files="3" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1558795395047" units="0" version="1.0"/>
+</session>

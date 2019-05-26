@@ -1,0 +1,13 @@
+package scalaTypesPkg
+
+object scalaTypesObj {
+  def main(args:Array[String]){
+    println("""|Inside main method
+               |Testing the multiline scenario""".stripMargin)
+   val ivalue:Int = 20
+   val ivalue2:Int = 30
+   println("ivalue * ivalue2 " + ivalue.*(ivalue2))
+   println("ivalue * ivalue2 " + ivalue*ivalue2)
+   
+  }
+}

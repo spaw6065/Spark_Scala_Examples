@@ -1,0 +1,9 @@
+package scalaTypesPkg
+
+object scalaTypesObj {
+  def main(args:Array[String]){
+    println("""|Inside main method
+               |Testing the multiline scenario""".stripMargin)
+    
+  }
+}

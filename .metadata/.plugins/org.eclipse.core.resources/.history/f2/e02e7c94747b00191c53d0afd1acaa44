@@ -1,0 +1,16 @@
+
+
+object scalaloopsObj {
+def main(args:Array[String]){
+  println("Entered main method")
+  
+  //read the files from the input directory 
+  val filesHere = (new java.io.File(args(0)).listFiles())
+  
+  println("filesHere is of type"+filesHere.isInstanceOf)
+  
+  for{file <- filesHere  
+  } println(file)
+  println("Exited main method")
+}
+}

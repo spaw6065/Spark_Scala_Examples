@@ -1,0 +1,116 @@
+
+
+object scalcollectionsobj {
+  //pallindrome function using java apis
+  def isPallindrome(inputStr:String):Int={
+    if(inputStr.length != 0){
+      val reverseinputStr = inputStr.reverse
+      //println("Reverse string is "+reverseinputStr)
+      
+      if(reverseinputStr.compare(inputStr)==0){
+       0 
+      }
+      else
+       1  
+    }
+    else
+    {
+      println("length of the string is zero !!")
+      0
+    }
+  }
+  //main method
+  def main (args:Array[String]){
+   val iString = "PAPA"
+   val sList = List(("sumit","pawar"),("amit","pawar"),("papa","the quick brown fox jumps over the lazy dog"),("oro","tat"))
+   
+   sList.foreach(s=> { if(isPallindrome(s._1) == 0 && isPallindrome(s._2) == 0) 
+                          println("String "+ s +" is pallindrome") 
+                      })
+   
+    var maxfirstnamelength = 0
+    var maxfirstname = ""
+    
+    var maxlastnamelength = 0
+    var maxlastname = ""
+    
+   // iterate through the list and print the max string in the list 
+   for(ituple <- sList)
+   {
+      if (ituple._1.length() > maxfirstnamelength){
+        maxfirstnamelength = ituple._1.length()
+        maxfirstname = ituple._1
+        
+      }
+      if(ituple._2.length() > maxlastnamelength){
+        maxlastnamelength = ituple._2.length()
+        maxlastname = ituple._2        
+      }
+           
+   }
+      
+   if(maxlastnamelength >= maxfirstnamelength)
+        println("Biggest String is of length :"+maxlastnamelength +" and string is :"+maxlastname)
+   else
+        println("Biggest String is of length :"+maxfirstnamelength +" and string is :"+maxfirstname)
+
+            
+   val returnvalue = isPallindrome(iString)
+   if (returnvalue == 0)
+     println("entered string "+iString +" is pallindrome")
+   else
+     println("entered string "+ iString + " is not pallindrome") 
+    
+  }
+  
+  //create a list of different elements
+  val sList2 = List("sumit" ,2 ,"amit",2)
+  sList2.foreach(s=>println(s))
+  println(sList2.indices zip sList2)
+  
+  println("the first element of the list "+ sList2.init) // sumit 2 amit
+  println("the last element of the list "+sList2.last) //2
+  println("the head of the list is  "+sList2.head) // sumit
+  println("the tail of the list is "+sList2.tail) // 2 amit 2
+  
+  println("-----------------------------------")
+  val sList2toString = sList2.mkString(" ").split(" ")
+  println("sList2toString "+sList2toString(2))
+  
+  println("-----------------------------------")
+  val buf = new StringBuilder()
+  val mList2 = sList2.addString(buf, ",")
+  
+  println("-----------------------------------")
+  //even elements from the list
+  val iList = List(1,2,3,4,5,6,7,8,9,0)
+  val sList = List("sum","sa","sp")
+  println("even elements of the list "+iList.filter(_ %2 ==0))
+  
+  println("-----------------------------------")
+  //find the first even element in the list 
+  println("first even element from the list "+iList.find(_ %2 ==0))
+  
+  println("-----------------------------------")
+  //partition the list
+  println("partition the list "+iList.partition(_ != 0))
+  
+  println("-----------------------------------")
+  //takeWhile
+  println("takeWhile from the list "+sList.takeWhile(_.length >= 2))
+  
+  println("-----------------------------------")
+  //dropWhile
+  println("dropWhile from the list "+sList.dropWhile(_.length > 2))
+      
+  println("-----------------------------------")
+  println("list elements starts with s "+sList.foreach(x=>x.startsWith("a")))
+  
+  mList2.foreach(println)
+  println("-----------------------------------")
+  //create a mutable
+  println("the elements of set are ***")
+  val sSet = Set("sumit","sumit","amit")
+  sSet.foreach(s=> println(s))
+  println("length of set elements "+ sSet.count(p => p=="amit"))
+}

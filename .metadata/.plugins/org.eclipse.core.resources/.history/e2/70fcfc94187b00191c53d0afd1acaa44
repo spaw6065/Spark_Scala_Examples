@@ -1,0 +1,19 @@
+package scalaTypesPkg
+
+object scalaTypesObj {
+  def main(args:Array[String]){
+    println("""|Inside main method
+               |Testing the multiline scenario""".stripMargin)
+   val ivalue:Int = 20
+   val ivalue2:Int = 30
+   println("ivalue * ivalue2 " + ivalue.*(ivalue2))
+   println("ivalue * ivalue2 " + ivalue*ivalue2)
+   
+   val iList = List(1,2,3)
+   val iList2  = List(4,5,6)
+   val ifullList = iList:::iList2
+   val ifullList2 = iList2.:::(iList)
+   println("full list is " +ifullList)
+   println("full list is "+ ifullList2)
+  }
+}

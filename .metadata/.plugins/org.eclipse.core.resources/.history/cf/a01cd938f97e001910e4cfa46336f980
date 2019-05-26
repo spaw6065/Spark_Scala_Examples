@@ -1,0 +1,7 @@
+
+
+trait mytrait {
+  def println2(iString:String)={
+   println("This is trait print stmt "+iString)
+  }
+}

@@ -1,0 +1,9 @@
+
+
+object myobject {
+  def main(args:Array[String])={
+   println("Inside main method")
+   val myobj1 = new myclass
+   myobj1.myprintln
+  }
+}

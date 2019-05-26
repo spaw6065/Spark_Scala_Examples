@@ -1,0 +1,17 @@
+
+class animal(name:String,legs:Int,Feathers:Int){
+//  def canfly(Feathers:Int):Boolean
+  def animal(name:String)={
+    println("Animal name initialised is "+ this.name)
+  }
+  
+}
+
+
+
+object abstractObj {
+  def main (args:Array[String]){
+  val animalObj = new animal("Rat",4,0)
+ // println("Rat can fly ? :"+animalObj.canfly(0))
+  }
+}

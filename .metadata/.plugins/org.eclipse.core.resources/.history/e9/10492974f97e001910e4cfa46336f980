@@ -1,0 +1,8 @@
+
+
+object myobject {
+  val logger = new Logger(getClass)
+  def main(args:Array[String])={
+    logger.error("This is main method")
+  }
+}

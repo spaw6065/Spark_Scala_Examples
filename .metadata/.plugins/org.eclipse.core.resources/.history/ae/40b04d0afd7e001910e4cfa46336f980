@@ -1,0 +1,5 @@
+package traitspkg
+
+trait mytrait2 {
+  
+}

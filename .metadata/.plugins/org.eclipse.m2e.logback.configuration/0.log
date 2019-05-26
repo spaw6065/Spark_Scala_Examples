@@ -5097,3 +5097,7 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.bouncycas
 2019-05-26 12:33:08,609 [Worker-63: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
 2019-05-26 12:33:08,610 [Worker-63: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2019-05-26 12:33:08,611 [Worker-63: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sumitpawar/scala_eclipse_workspace/traits/src/test/resources
+2019-05-26 12:37:49,026 [Worker-71: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-26 12:37:49,029 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-05-26 12:37:49,030 [Worker-71: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-26 12:37:49,031 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sumitpawar/scala_eclipse_workspace/traits/src/test/resources
